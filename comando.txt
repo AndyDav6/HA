@@ -3,3 +3,7 @@ COMANDOS DE GIT
 - git clone: clonar repositorio.
 - git pull: para obtener los cambios más recientes.
 - git push: después de hacer commit a tus cambios para subirlos al repositorio.
+
+caja 1: vison y mision ---- facebook
+caja 2: cursos -- tecnologia, contaduria, refuerzo de refuerzo academico, finanzas
+caja 3: contactos de comunicacion con nosotros
