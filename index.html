@@ -5,13 +5,30 @@
         <meta name="viewport" content="width=device-width,  initial-scale=1.0">
         <meta name="description" content="HabilaIA - Crea y fortacele tus habilidades con la ayuda de la inteligencia artifical">
 
-        <link rel="icon" type="img/jpg" href="/img/build_BASE.jpg">
+        <link rel="icon" type="img/jpg" href="./img/build_BASE.jpg">
         <link rel="stylesheet" href="./CSS/Style.css">
         <link rel="stylesheet" href="./CSS/estilado.css">
+        <link rel="stylesheet" href="./CSS/modal.css">
 
         <title>HabilaIA</title>
     </head>
 <body>
+
+    <div id="myModal" class="modal">
+
+      <div class="modal-content">
+        <span class="close">×</span>
+        <p><h6>Por favor, acepta nuestra política de privacidad para continuar.</h6></p>
+          <p><h6><h6>La Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales es relevante en este contexto. Esta ley protege el derecho fundamental de las personas físicas en relación con el tratamiento de datos personales. Algunos aspectos clave incluyen:
+
+          Exactitud de los datos (Artículo 4): Los datos deben ser precisos           y actualizados.
+          Deber de confidencialidad (Artículo 5): Quienes tratan datos          deben mantener su confidencialidad.
+          Consentimiento del afectado (Artículo 6): El tratamiento de datos           debe basarse en el consentimiento del titular.</h6>
+        </p>
+        <button onclick="acceptPrivacy()">Acepto</button>
+      </div>
+    </div>
+
     <header>
         <h1>HabilaIA</h1>
     </header>
@@ -108,6 +125,14 @@
                     <summary>¿Cuales son los costos de los cursos de cada pais?</summary>
                     <p>Los precios pueden variar dependendiendo de la inflacion de cada pais pero simepre nos guiamos del dolar</p>
                 </details>
+                <details>
+                  <summary>¿Cuales son los costos de los cursos de cada pais?</summary>
+                    <p>Los precios pueden variar dependendiendo de la inflacion de cada pais pero simepre nos guiamos del dolar</p>
+                </details>
+                <details>
+                  <summary>¿Estan avalados por alguna entidad publica?</summary>
+                    <p>Los precios pueden variar dependendiendo de la inflacion de cada pais pero simepre nos guiamos del dolar</p>
+                </details>
             </section>
 
             <h4>Siguenos en nuestras redes sociales</h4>
@@ -200,10 +225,12 @@
 
         <footer>
           <h6>Copyright &copy; 2024 - Todos los derechos reservados</h6>
-          <h6>Hidden Intelligence &#174;</h6>
+          <h6>Hidden Intelligence</h6>
       </footer>
 
     </main>
+
+    <script src="./src/scrp.js"></script>
 
 </body>
 </html>

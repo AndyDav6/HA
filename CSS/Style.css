@@ -80,14 +80,13 @@ header h1 {
     margin-top: 10px;
 }
 
-/* Estilos específicos para caja3 */
 #caja3 {
     background-color: #ccc;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 0.5cm; /* Separación de 0.5 cm de caja2 */
+    margin-top: 0.5cm;
 }
 
 h3 {
@@ -98,7 +97,6 @@ h3 {
     margin-top: 20px;
 }
 
-/* estilos para las imágenes */
 .ban {
     width: 100px;
     height: auto;
@@ -109,7 +107,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* estilos para los enlaces de redes sociales */
 .icon-content {
     display: inline-block;
     position: relative;
@@ -161,15 +158,18 @@ section {
     display: block;
 }
 
-/* estilos específicos para FAQ */
 details {
     margin-bottom: 10px;
 }
 
-/* Estilos para el footer */
 footer {
-    background-color: #ccc;
     text-align: center;
-    padding: 10px;
-    margin-top: 0.5cm; /* Separación de 0.5 cm de la caja3 */
+    padding: 10px 0;
+    margin-top: 0.5cm; 
+}
+
+footer h6 {
+    margin: 0;
+    padding: 0;
+    display: inline; 
 }
