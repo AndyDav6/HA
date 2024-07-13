@@ -65,3 +65,17 @@ header h1 {
     position: relative;
     top: 150px;
 }
+
+#caja2 {
+    background: #ccc;
+    padding: 20px;
+    margin: 0.5cm auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+#caja2 label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
