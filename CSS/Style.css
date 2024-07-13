@@ -80,13 +80,15 @@ header h1 {
     margin-top: 10px;
 }
 
+
 #caja3 {
     background-color: #ccc;
-    margin-bottom: 20px;
+    margin: 0.5cm auto 20px; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 0.5cm;
+    width: 80%; 
+    text-align: center;
 }
 
 h3 {
@@ -97,6 +99,7 @@ h3 {
     margin-top: 20px;
 }
 
+
 .ban {
     width: 100px;
     height: auto;
@@ -106,6 +109,7 @@ h3 {
 section {
     margin-bottom: 20px;
 }
+
 
 .icon-content {
     display: inline-block;
@@ -158,9 +162,11 @@ section {
     display: block;
 }
 
+
 details {
     margin-bottom: 10px;
 }
+
 
 footer {
     text-align: center;
