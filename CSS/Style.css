@@ -79,3 +79,97 @@ header h1 {
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
 }
+
+/* Estilos específicos para caja3 */
+#caja3 {
+    background-color: #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0.5cm; /* Separación de 0.5 cm de caja2 */
+}
+
+h3 {
+    color: #333;
+}
+
+.mi, .vi {
+    margin-top: 20px;
+}
+
+/* estilos para las imágenes */
+.ban {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* estilos para los enlaces de redes sociales */
+.icon-content {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+
+.icon-content .filled {
+    display: none;
+}
+
+.icon-content a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    font-size: 1.5em;
+}
+
+.icon-content:hover .filled {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.icon-content:hover .tooltip {
+    display: block;
+}
+
+/* estilos específicos para FAQ */
+details {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0.5cm; /* Separación de 0.5 cm de la caja3 */
+}
