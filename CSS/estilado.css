@@ -8,12 +8,12 @@ ul {
   align-items: center;
   flex-direction: column;
 }
-.example-2 .icon-content {
+.example-2 .icon-conten {
   margin: 0 10px;
   position: relative;
   padding: 0.5rem;
 }
-.example-2 .icon-content .tooltip {
+.example-2 .icon-conten .tooltip {
   position: absolute;
   top: 100%;
   right: 110%;
@@ -26,12 +26,12 @@ ul {
   font-size: 14px;
   transition: all 0.3s ease;
 }
-.example-2 .icon-content:hover .tooltip {
+.example-2 .icon-conten:hover .tooltip {
   opacity: 1;
   visibility: visible;
   top: -50px;
 }
-.example-2 .icon-content a {
+.example-2 .icon-conten a {
   position: relative;
   overflow: hidden;
   display: flex;
@@ -44,19 +44,19 @@ ul {
   background-color: #fff;
   transition: all 0.3s ease-in-out;
 }
-.example-2 .icon-content a:hover {
+.example-2 .icon-conten a:hover {
   box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
 }
-.example-2 .icon-content a svg {
+.example-2 .icon-conten a svg {
   position: relative;
   z-index: 1;
   width: 30px;
   height: 30px;
 }
-.example-2 .icon-content a:hover {
+.example-2 .icon-conten a:hover {
   color: white;
 }
-.example-2 .icon-content a .filled {
+.example-2 .icon-conten a .filled {
   position: absolute;
   top: auto;
   bottom: 0;
@@ -66,21 +66,21 @@ ul {
   background-color: #000;
   transition: all 0.3s ease-in-out;
 }
-.example-2 .icon-content a:hover .filled {
+.example-2 .icon-conten a:hover .filled {
   height: 100%;
 }
 
-.example-2 .icon-content a[data-social="linkedin"] .filled,
-.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+.example-2 .icon-conten a[data-social="linkedin"] .filled,
+.example-2 .icon-conten a[data-social="linkedin"] ~ .tooltip {
   background-color: #0274b3;
 }
 
-.example-2 .icon-content a[data-social="github"] .filled,
-.example-2 .icon-content a[data-social="github"] ~ .tooltip {
+.example-2 .icon-conten a[data-social="github"] .filled,
+.example-2 .icon-conten a[data-social="github"] ~ .tooltip {
   background-color: #24262a;
 }
-.example-2 .icon-content a[data-social="instagram"] .filled,
-.example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+.example-2 .icon-conten a[data-social="instagram"] .filled,
+.example-2 .icon-conten a[data-social="instagram"] ~ .tooltip {
   background: linear-gradient(
     45deg,
     #405de6,
@@ -91,7 +91,7 @@ ul {
     #fd1f1f
   );
 }
-.example-2 .icon-content a[data-social="youtube"] .filled,
-.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+.example-2 .icon-conten a[data-social="youtube"] .filled,
+.example-2 .icon-conten a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
 }
